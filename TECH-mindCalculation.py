@@ -48,8 +48,11 @@ def main():
       opt = input("Operators(* or / or % or - or + ): ")
       
       while True:
-             
-             y += 1
+             if option == "2":
+                         x = randrange(int(rng))
+                         y = randrange(int(rng))
+             if option == "1":
+                         y += 1
              
              if end == "end":
                 print ("score: ",score + 1,"/10")
