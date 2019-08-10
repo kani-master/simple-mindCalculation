@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python3
 
 from random import randrange
 import sys
