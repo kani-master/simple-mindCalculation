@@ -98,6 +98,10 @@ def main():
                  ####
                  print(x,opt,y,"          (press < x > to exit or < ! > for help)")
                  answer = input(" = ")
+                 if answer == "x":
+                   sys.exit()
+                 if answer == "r":
+                   main()
                  while answer == "":
                      print("empty answer!!\n Again!\n",x,opt,y)
                      answer = input(" = ")
